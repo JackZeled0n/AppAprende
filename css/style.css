@@ -1,0 +1,62 @@
+/* YOUR CUSTOM STYLES */
+.top-nav-collapse {
+    background-color: #353B50 !important; 
+}
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #353B50 !important;
+    } 
+}
+@media (max-width: 740px) {
+    .full-height,
+    .full-height body,
+    .full-height header,
+    .full-height header .view {
+        height: 700px; 
+    } 
+}
+
+/* Carousel*/
+
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url("../img/carousel/background-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url("../img/carousel/background-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#pattern-lp {
+    background-image: url(../img/exagon-pattern.png);
+}
+
+.intro-1 {
+    background: url("../img/background-1.jpg")no-repeat center center;
+    background-size: cover;
+}
+
+.md-form label {
+    color: #314267;
+}
+
+.background-lp{
+    background-color: #F7F8FD;
+}
